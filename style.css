@@ -1,16 +1,19 @@
 html, body { background-color: rgba(0,0,0,1); color: rgba(255,255,255,1); }
-h1 { font-weight: normal; font-size: 3rem; }
-p { line-height:2rem; font-size: 1.5rem; color: rgba(255,255,255,.6); }
+h1 { font-weight: normal; font-size: 3.2rem; }
+h2 { font-weight: normal; font-size: 2.4rem; }
+h4 { font-weight: normal; font-size: 1.5rem;  }
+p {font-size: 1.5rem; color: rgba(255,255,255,.6); }
 img { max-width: 100%; }
 hr { border: 1px solid rgba(255,255,255,.6); margin: 3rem 0;}
+a { color:inherit; }
 a:hover { text-decoration: none; }
 
 .content { max-width: 696px; margin: 0 auto; padding: 3rem; }
 .logo {margin: 3rem 0;}
+.arial{ font-family: sans-serif;}
 
 .o-100 { opacity: 1; }
 .o-60 { opacity: .6; }
-
 .black-60 { color: rgba( 0, 0, 0, .6 ); }
 .white-60 { color: rgba( 255, 255, 255, .6 ); }
 .black { color: #000; }
@@ -20,6 +23,7 @@ a:hover { text-decoration: none; }
   .content { padding: 2rem; }
   .logo {margin: 2rem 0;}
   h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
   p { font-size: 1.25rem; }
   hr { margin: 2rem 0;}
 }
