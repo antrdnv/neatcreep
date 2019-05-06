@@ -1,7 +1,7 @@
 html, body { background-color: rgba(0,0,0,1); color: rgba(255,255,255,1); }
 h1 { font-weight: normal; font-size: 3.2rem; }
 h2 { font-weight: normal; font-size: 2.4rem; }
-h4 { font-weight: normal; font-size: 1.5rem;  }
+h4 { font-weight: normal; font-size: 1rem; text-transform:uppercase;;}
 p {font-size: 1.5rem; color: rgba(255,255,255,.6); }
 img { max-width: 100%; }
 hr { border: 1px solid rgba(255,255,255,.6); margin: 3rem 0;}
@@ -20,7 +20,7 @@ a:hover { text-decoration: none; }
 .white { color: #fff; }
 
 @media only screen and (max-width: 600px) {
-  .content { padding: 2rem; }
+  .content { padding: 1rem; }
   .logo {margin: 2rem 0;}
   h1 { font-size: 2rem; }
   h2 { font-size: 1.5rem; }
